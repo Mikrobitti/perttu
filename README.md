@@ -1,2 +1,2 @@
-# perttu
-Botti, joka pelaa Wordlea.
+# Perttu
+Wordle-botti Perttu. Mikrobitti & Simo Sahla 2022.
