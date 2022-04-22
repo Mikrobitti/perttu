@@ -36,6 +36,8 @@ while arvailu_kaynnissa:
             palaute = input('Syötä Wordlen palaute: ')
             if palaute == 'q':
                 arvailu_kaynnissa = False
+            else:
+                perttu.paivita_mahdolliset(edellinen_arvaus, palaute)
     else:
         # Luodaan sata uutta ehdotusta ja tarjotaan niistä parasta.
         # Jos käyttäjän vastaus on tyhjä, otetaan uusiksi.
